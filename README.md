@@ -1,14 +1,32 @@
-# cloud-connector
+# Python Connector for Monday.com and Microsoft Power BI
+A python connector that enables data analysis and visualization of Monday.com board data using Microsoft Power BI. The connector transforms JSON data from Monday.com API into a format that can be consumed by Power BI and creates dynamic reports and dashboards.
 
-I developed a python connector that transforms data from a cloud based SAAS service (monday.com) into a format that can be utilized by the business analytics software, Microsoft Power BI. A deeper understanding of actionable insights was developed through the analysis of data, development of metrics, and creating reports in Microsoft Power BI.
+## Features
+- The python connector supports connecting to any Monday.com board and retrieving its data using REST web services.
+- The python connector handles data transformation and conversion from JSON to tabular format, including handling changes in the source data structure (such as new columns in Monday.com boards).
+- The python connector integrates with Microsoft Power BI and allows creating custom queries, metrics, and visualizations using Monday.com board data.
+- The python connector provides documentation and examples on how to use the connector and create reports and dashboards in Power BI.
 
-A high proficiency in python and JSON data structures was required in order for the Microsoft Power BI python connector to be successfully completed. From a technical perspective, the python connector calls REST web services to consume JSON data from the monday.com. The data is then transformed into a format that will enable the analysis of Monday.com board data to be performed in Microsoft power BI. Dynamically analyzing changes in the source data structure (such as new columns in monday.com boards) and factoring these changes automatically during data transformation was one of the key capabilities of the connector.
+## Usage
+To use the python connector, you need to install the required dependencies:
 
-This whole process required a strong level of analytical and communication skills and this was demonstrated through the documentation, of the python connector.
+```bash
+pip install -r requirements.txt
 
-- The connector was a part of a data pipeline process where I had to convert Monday.com data into a format that can be read in Microsoft Power BI
+-------------------------------------------------------------
 
-#### Softwares/tools that assisted in development
+Then, you need to create a config file with your Monday.com API key and the board ID that you want to connect to:
 
-I used SoapUI (an open source API testing tool) to analyze the Monday.com webservices  
+{
+  "api_key": "your_api_key",
+  "board_id": "your_board_id"
+}
+--------------------------------------------------------------
+
+Next, you need to run the connector script with the config file as an argument:
+
+python connector.py config.json
+
+The connector will output a CSV file with the transformed data from the Monday.com board.
+Finally, you can import the CSV file into Power BI and create your own queries, metrics, and visualizations using the board data.
 

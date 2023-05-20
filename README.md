@@ -1,8 +1,8 @@
 # Python Connector for Monday.com and Microsoft Power BI
 
-The purpose of this project is to enable data analysis and visualization of Monday.com board data using Microsoft Power BI. Monday.com is a cloud-based work operating system that allows teams to manage projects, workflows, and goals. Microsoft Power BI is a business analytics service that provides interactive visualizations and business intelligence capabilities. These two platforms were selected as the data sources and tools for this project because they offer an opportunity to explore how to extract, transform, and analyze data from a web service using python, and how to create dynamic and interactive reports and dashboards using Power BI.
+The goal of this project is to enable data analysis and visualization of Monday.com board data using Microsoft Power BI. Monday.com is a cloud-based work operating system that allows teams to manage projects, workflows, and goals. Microsoft Power BI is a business analytics service that provides interactive visualizations and business intelligence capabilities. 
 
-The main component of this project is a python connector that transforms JSON data from the Monday.com API into a format that can be consumed by Power BI. The connector supports connecting to any Monday.com board and retrieving its data using REST web services. The connector handles data transformation and conversion from JSON to tabular format, including handling changes in the source data structure (such as new columns in Monday.com boards). The connector integrates with Microsoft Power BI and allows creating custom queries, metrics, and visualizations using Monday.com board data.
+The project consists of a python connector that transforms JSON data from the Monday.com API into a format that can be consumed by Power BI. The connector supports connecting to any Monday.com board and retrieving its data using REST web services. The connector handles data transformation and conversion from JSON to tabular format, including handling changes in the source data structure (such as new columns in Monday.com boards). The connector integrates with Microsoft Power BI and allows creating custom queries, metrics, and visualizations using Monday.com board data.
 
 ## Features
 
@@ -35,7 +35,13 @@ To learn more about the topics related to this project, you can check out the fo
 - [Microsoft Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
 - [soapUI Documentation](https://www.soapui.org/docs/)
 - [Python Documentation](https://docs.python.org/3/)
-```
 
+### Additional Info. about soapUI
+
+SoapUI is an open source API testing tool that allows you to test REST, SOAP, GraphQL, and other web services. It helps you to create, manage, and execute end-to-end tests on APIs and validate their functionality, performance, and security.
+
+In this project, soapUI helped me to analyze the Monday.com web services and understand their structure, parameters, and responses. I used soapUI to send requests to the Monday.com API and inspect the JSON data that was returned. I also used soapUI to test the functionality and performance of the API and check for any errors or issues.
+
+SoapUI helped me to ensure that the python connector was working correctly and that it was able to consume and transform the JSON data from the Monday.com API. It also helped me to debug and troubleshoot any problems that occurred during the development of the connector.
 
 

@@ -6,6 +6,8 @@ A high proficiency in python and JSON data structures was required in order for 
 
 This whole process required a strong level of analytical and communication skills and this was demonstrated through the documentation, of the python connector.
 
+- The connector was a part of a data pipeline process where I had to convert Monday.com data into a format that can be read in Microsoft Power BI
+
 #### Softwares/tools that assisted in development
 
 I used SoapUI (an open source API testing tool) to analyze the Monday.com webservices  

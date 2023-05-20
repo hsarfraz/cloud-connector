@@ -30,3 +30,12 @@ python connector.py config.json
 The connector will output a CSV file with the transformed data from the Monday.com board.
 Finally, you can import the CSV file into Power BI and create your own queries, metrics, and visualizations using the board data.
 
+## Additional Resources
+
+SoapUI is an open source API testing tool that allows you to test REST, SOAP, GraphQL, and other web services. It helps you to create, manage, and execute end-to-end tests on APIs and validate their functionality, performance, and security.
+
+In this project, soapUI helped me to analyze the Monday.com web services and understand their structure, parameters, and responses. I used soapUI to send requests to the Monday.com API and inspect the JSON data that was returned. I also used soapUI to test the functionality and performance of the API and check for any errors or issues.
+
+SoapUI helped me to ensure that the python connector was working correctly and that it was able to consume and transform the JSON data from the Monday.com API. It also helped me to debug and troubleshoot any problems that occurred during the development of the connector.
+
+

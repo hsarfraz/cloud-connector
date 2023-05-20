@@ -9,10 +9,10 @@ A python connector that enables data analysis and visualization of Monday.com bo
 
 ## Additional Resources
 
-SoapUI is an open source API testing tool that allows you to test REST, SOAP, GraphQL, and other web services. It helps you to create, manage, and execute end-to-end tests on APIs and validate their functionality, performance, and security.
+SoapUI is an open source API testing tool that allows you to test REST, SOAP, GraphQL, and other web services. It helps create, manage, and execute end-to-end tests on APIs and validate their functionality, performance, and security.
 
-In this project, soapUI helped me to analyze the Monday.com web services and understand their structure, parameters, and responses. I used soapUI to send requests to the Monday.com API and inspect the JSON data that was returned. I also used soapUI to test the functionality and performance of the API and check for any errors or issues.
+soapUI helped analyze the Monday.com web services and understand the structure, parameters, and responses. soapUI was used to send requests to the Monday.com API and inspect the JSON data that was returned. Additionally, soapUI was used to test the functionality and performance of the API and check for any errors or issues.
 
-SoapUI helped me to ensure that the python connector was working correctly and that it was able to consume and transform the JSON data from the Monday.com API. It also helped me to debug and troubleshoot any problems that occurred during the development of the connector.
+SoapUI helped ensure that the python connector was working correctly and that it was able to consume and transform the JSON data from the Monday.com API. It also helped debug and troubleshoot any problems that occurred during the development of the connector.
 
 

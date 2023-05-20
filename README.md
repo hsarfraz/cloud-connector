@@ -14,9 +14,7 @@ Then, you need to create a config file with your Monday.com API key and the boar
 headers = {"Authorization": ""} #ENTER AUTHORISATION TOKEN HERE
 ````
 
-After you run the connector the data will be parsed into a format that can be read in Microsoft Power BI. To view the data in Microsoft Power BI you would need to upload the python script in Power BI.
-
-<a href="https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-python-scripts" target="_blank">upload the python script in Power BI</a>
+After you run the connector the data will be parsed into a format that can be read in Microsoft Power BI. To view the data in Microsoft Power BI you would need to <a href="https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-python-scripts" target="_blank">upload the python script in Power BI</a>
 
 ## Additional Resources
 

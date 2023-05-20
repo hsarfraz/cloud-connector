@@ -7,6 +7,17 @@ A python connector that enables data analysis and visualization of Monday.com bo
 - The python connector integrates with Microsoft Power BI and allows creating custom queries, metrics, and visualizations using Monday.com board data.
 - The python connector provides documentation and examples on how to use the connector and create reports and dashboards in Power BI.
 
+## Usage
+
+Then, you need to create a config file with your Monday.com API key and the board ID that you want to connect to. You will do this by entering the authentication token which is given if you are subscribed to Monday.com services:
+```
+headers = {"Authorization": ""} #ENTER AUTHORISATION TOKEN HERE
+````
+
+After you run the connector the data will be parsed into a format that can be read in Microsoft Power BI. To view the data in Microsoft Power BI you would need to upload the python script in Power BI.
+
+<a href="https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-python-scripts" target="_blank">upload the python script in Power BI</a>
+
 ## Additional Resources
 
 SoapUI is an open source API testing tool that allows you to test REST, SOAP, GraphQL, and other web services. It helps create, manage, and execute end-to-end tests on APIs and validate their functionality, performance, and security.
